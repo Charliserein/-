@@ -34,3 +34,15 @@ SMPLitex使用扩散模型作为生成主干。扩散模型是一种逐渐从图
 
 
 https://github.com/Charliserein/Virtual-3D-digital-human-image-generation/blob/main/%E5%AA%92%E4%BD%931.mp4
+
+## 指令
+
+set KMP_DUPLICATE_LIB_OK=TRUE
+
+python D:\SMPLitex\stable-diffusion-webui-master\webui.py --api
+
+python inpaint_with_A1111.py --partial_textures ./dummy_data/uv-textures   --masks ./dummy_data/uv-textures-masks  --inpainted_textures ./dummy_data/uv-textures-inpainted
+
+#be saved in  D:\SMPLitex\scripts\dummy_data\uv-textures-inpainted
+
+
