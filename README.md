@@ -31,6 +31,6 @@ SMPLitex使用扩散模型作为生成主干。扩散模型是一种逐渐从图
 
 视频演示
 
-<video src="https://github.com/Charliserein/Virtual-3D-digital-human-image-generation/raw/main/媒体1.mp4" controls width="640" height="360">
+<video src="https://github.com/Charliserein/Virtual-3D-digital-human-image-generation/blob/main/%E5%AA%92%E4%BD%931.mp4" controls width="640" height="360">
   Your browser does not support the video tag.
 </video>
